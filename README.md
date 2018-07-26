@@ -8,19 +8,20 @@ Client/Server are interoperable with arbitrary FTP programs. Login feature is un
 
 Server:
 
-Commands Requiring Arguments
-USER<SP+><username><CRLF>
-PASS<SP+><password><CRLF>
-TYPE<SP+><type-code><CRLF>
-PORT<SP+><host-port><CRLF>
-RETR<SP+><pathname><CRLF>
+  Commands Requiring Arguments
+  USER<SP+><username><CRLF>
+  PASS<SP+><password><CRLF>
+  TYPE<SP+><type-code><CRLF>
+  PORT<SP+><host-port><CRLF>
+  RETR<SP+><pathname><CRLF>
 
-Standalone Commands
-SYST<CRLF>
-NOOP<CRLF>
-QUIT<CRLF>
+  Standalone Commands
+  SYST<CRLF>
+  NOOP<CRLF>
+  QUIT<CRLF>
+
 Client:
 
-CONNECT<SP>+<server-host><SP>+<server-port><EOL>
-GET<SP>+<pathname><EOL>
-QUIT<EOL>
+  CONNECT<SP>+<server-host><SP>+<server-port><EOL>
+  GET<SP>+<pathname><EOL>
+  QUIT<EOL>
